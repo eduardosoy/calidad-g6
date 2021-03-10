@@ -47,6 +47,7 @@ public class MainJuego extends AppCompatActivity {
             karma=savedInstanceState.getInt("penalizacion");
             casoconcreto= savedInstanceState.getInt("caso");
             puntuacion=savedInstanceState.getInt("puntuacion");
+            //
             cuentaatras(tiempRest);
         }
         else {
